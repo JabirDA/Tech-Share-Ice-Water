@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Maps Example</title>
+  <link rel="stylesheet" href="css.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="inputs">
+    <p class="input">Type an address, or click on the map to autofill it:</p>
+    <input id="source" class="inputBox" placeholder="Enter address">
+  </div>
+  <div class="directions">
+    <p class="panelrow">
+      <label for="destination">Direction to:</label>
+      <input type="text" id="directionDestination" class="inputBox" placeholder="Enter destination">
+      <br>
+      <label for="start">Direction from:</label>
+      <input type="text" id="directionStart" class="inputBox" placeholder="Enter start">
+    </p>
+    <p class="panelrow">
+      WALK <input name="routetype" id="walking" type="radio" value="WALKING" checked> <br>
+      DRIVE <input name="routetype" id="driving" type="radio" value="DRIVING"> <br>
+      TRANS<input name="routetype" id="transit" type="radio" value="TRANSIT">
+    </p>
+    <button onclick="calculateRoute()">Get Directions</button>
+  </div>
+  <div id="map" style="height:400px; width:100%;"> 
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=initMap" async defer></script>
+  
+  <script src="code.js"></script> 
+</body>
+</html>
