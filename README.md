@@ -220,6 +220,7 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
   &key=YOUR_API_KEY
 ```
 Here is the query on Postman:
+<img width="898" alt="tech-share-photo-1" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/98e5f9a0-63fd-429d-a4ad-bed793352bef">
 
 
 Although the query worked it's not very helpful so let's add some common additional parameters to make the results more custom. The first parameter we could add is ```keyword``` which is a string that is compared to the name of the location returning any partial matches. The second parameter that could be helpful is ```opennow``` which only returns locations that are currently open. One last useful parameter is ```type``` which filters locations by tags for example bars or hospitals. An important thing to note about tags is that a location may have multiple tags however your tage parameter can only have one value not multiple. 
@@ -234,6 +235,10 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
   &type=food
   &opennow
 ```
+<img width="889" alt="tech-share-photo-2" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/c10eb85d-4327-4ae7-8743-4c8d2c33c9cc">
+<img width="880" alt="tech-share-photo-3" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/59c18126-12f4-4b0f-8ff3-2a2406d66e3b">
+
+
 Although we did mention some of the more popular parameter options there are still a lot more that you could find useful:  
 ```https://developers.google.com/maps/documentation/places/web-service/search-nearby#optional-parameters```
 
