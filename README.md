@@ -207,9 +207,11 @@ Within this URL there are two parts you need to provide the first being the desi
 ```https://maps.googleapis.com/maps/api/place/nearbysearch/json?parameters```
 
 Now moving on to the second required part to complete before we get this working which is the parameters. Although there are many parameters that can be used in order to filter your search for example including ```opennow``` which only returns locations that are currently open. Only three parameters are required to send a successful request these are:
-API KEY
+``` ruby
+Key
 LOCATION
 RADIUS
+```
 The ```key``` parameter is what is your identification and how Google verifies you're allowed to make the request. The ```location``` parameter is an object that contains a ```Longitude``` and ```Latitude``` specifying the area in which you would like to query. Lastly, the ```radius``` is simply how wide you would like your search to cover relative to the Location parameter set previously. Here is a completed example using the UMN location:
 ```ruby
 https://maps.googleapis.com/maps/api/place/nearbysearch/json
@@ -233,7 +235,7 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
   &opennow
 ```
 Although we did mention some of the more popular parameter options there are still a lot more that you could find useful:  
-https://developers.google.com/maps/documentation/places/web-service/search-nearby#optional-parameters
+```https://developers.google.com/maps/documentation/places/web-service/search-nearby#optional-parameters```
 
 ## Conclusion 
 
