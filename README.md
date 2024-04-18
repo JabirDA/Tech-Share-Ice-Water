@@ -194,6 +194,48 @@ function calculateRoute() {
 ```
 
 ## Nearby Search
+Nearby Attractions Official documentation link: ```https://developers.google.com/maps/documentation/places/web-service/search-nearby#maxprice```
+
+The Nearby search component in the Google Maps API is an incredibly expansive and advantageous feature to include in any project with a map. Given some constraints such as location and search radius, this feature can locate attractions within your radius that match your search query. Let's take a look at how it works:
+
+The Nearby Search feature is an HTTP request made to the following link:
+
+```https://maps.googleapis.com/maps/api/place/nearbysearch/output?parameters```
+
+Within this URL there are two parts you need to provide the first being the desired output. The response for this request can be distributed in one of two formats ```JSON``` or ```XML```. So within the URL, you would need to state which of these two you would like by replacing output. For example, if I wanted  a JSON response the link would look like this: 
+
+```https://maps.googleapis.com/maps/api/place/nearbysearch/json?parameters```
+
+Now moving on to the second required part to complete before we get this working which is the parameters. Although there are many parameters that can be used in order to filter your search for example including ```opennow``` which only returns locations that are currently open. Only three parameters are required to send a successful request these are:
+API KEY
+LOCATION
+RADIUS
+The ```key``` parameter is what is your identification and how Google verifies you're allowed to make the request. The ```location``` parameter is an object that contains a ```Longitude``` and ```Latitude``` specifying the area in which you would like to query. Lastly, the ```radius``` is simply how wide you would like your search to cover relative to the Location parameter set previously. Here is a completed example using the UMN location:
+```ruby
+https://maps.googleapis.com/maps/api/place/nearbysearch/json
+  ?location=-44.974000, -93.227700
+  &radius=1000
+  &key=YOUR_API_KEY
+```
+Here is the query on Postman:
+
+
+Although the query worked it's not very helpful so let's add some common additional parameters to make the results more custom. The first parameter we could add is ```keyword``` which is a string that is compared to the name of the location returning any partial matches. The second parameter that could be helpful is ```opennow``` which only returns locations that are currently open. One last useful parameter is ```type``` which filters locations by tags for example bars or hospitals. An important thing to note about tags is that a location may have multiple tags however your tage parameter can only have one value not multiple. 
+
+Utilizing all of these optional features we can create a more accurate response. For example, in the following request, we are looking for food places near the UMN that are open and have the word chicken in the name:
+```ruby
+https://maps.googleapis.com/maps/api/place/nearbysearch/json
+  ?location=-44.974000, -93.227700
+  &radius=1000
+  &key=YOUR_API_KEY
+  &keyword=chicken
+  &type=food
+  &opennow
+```
+Although we did mention some of the more popular parameter options there are still a lot more that you could find useful:  
+https://developers.google.com/maps/documentation/places/web-service/search-nearby#optional-parameters
+
+## Conclusion 
 
 
 
