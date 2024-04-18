@@ -6,7 +6,7 @@ Map services are a great tool in our modern age. There are many such services of
 - Autocomplete an input box
 - Autofill text in the input box by clicking on the map
 - Directions
-- Nearby Attractions
+- Nearby Search
 
 - The final code of this tech share is available in this repository, feel free to look around. You will need to get your API key and add it to the script tag at the bottom of the HTML page.
 - 
@@ -192,6 +192,8 @@ function calculateRoute() {
   });
 }
 ```
+
+## Nearby Search
 
 
 
