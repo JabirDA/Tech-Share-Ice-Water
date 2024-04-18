@@ -236,8 +236,9 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
   &opennow
 ```
 <img width="889" alt="tech-share-photo-2" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/c10eb85d-4327-4ae7-8743-4c8d2c33c9cc">
+(Postman request)
 <img width="880" alt="tech-share-photo-3" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/59c18126-12f4-4b0f-8ff3-2a2406d66e3b">
-
+(Highlighted optional parameter filters within response )
 
 Although we did mention some of the more popular parameter options there are still a lot more that you could find useful:  
 ```https://developers.google.com/maps/documentation/places/web-service/search-nearby#optional-parameters```
