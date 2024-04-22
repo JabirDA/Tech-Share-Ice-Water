@@ -11,7 +11,8 @@ Map services are a great tool in our modern age. There are many such services of
 - The final code of this tech share is available in this repository, feel free to look around. You will need to get your API key and add it to the script tag at the bottom of the HTML page.
 - 
 ## Setup & Installation
-1. First, you will need to get your API key. You can get one by following the instructions [here](https://developers.google.com/maps/documentation/javascript/get-api-key#:%7E:text=Go%20to%20the%20Google%20Maps%20Platform%20%3E%20Credentials%20page.&text=On%20the%20Credentials%20page%2C%20click,Click%20Close).
+1. First, you will need to get your API key. You can get one by following the instructions [here](https://developers.google.com/maps/documentation/javascript/get-api-key#:%7E:text=Go%20to%20the%20Google%20Maps%20Platform%20%3E%20Credentials%20page.&text=On%20the%20Credentials%20page%2C%20click,Click%20Close). 
+> **Important:** You will need a credit/debit card.
 2. Now you will set up these files:
    - index.html
    - code.js
