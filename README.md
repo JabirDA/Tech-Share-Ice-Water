@@ -239,13 +239,14 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
 
 (Postman request)
 
-<img width="900" alt="tech-share-photo-8" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/a52b43ec-07ef-40d8-b572-38d1704849b0">
+<img width="1000" alt="tech-share-photo-8" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/a52b43ec-07ef-40d8-b572-38d1704849b0">
 
 
  As we can see within the response the optional filters we added are present for each nearby places returned.
-<img width="173" alt="tech-share-photo-5" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/44fc6f9b-602a-4be9-86d9-35712bc85674">
-<img width="414" alt="tech-share-photo-6" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/d7bccbf2-fbc5-432f-a85f-272cd033c9fb">
-<img width="580" alt="tech-share-photo-7" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/46b609ec-77bc-401a-b6ce-ea4c7e3d1ee1">
+
+<img width="700" alt="tech-share-photo-4" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/6179056b-61dc-4657-b3b0-29985b5c3b35">
+
+<img width="300" alt="tech-share-photo-5" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/2b0124b7-5702-4134-a60f-3b0552c2259a">
 
 
 Although we did mention some of the more popular parameter options there are still a lot more that you could find useful:  
