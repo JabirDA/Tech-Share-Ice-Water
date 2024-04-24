@@ -236,10 +236,17 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
   &type=food
   &opennow
 ```
-<img width="889" alt="tech-share-photo-2" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/c10eb85d-4327-4ae7-8743-4c8d2c33c9cc">
-(Postman request)
-<img width="880" alt="tech-share-photo-3" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/59c18126-12f4-4b0f-8ff3-2a2406d66e3b">
-(Highlighted optional parameter filters within response )
+
+(Postman URL request)
+<img width="580" alt="tech-share-photo-7" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/92118b01-2d58-4a7a-ac8b-c84ac01d4c8c">
+(Postman Parameters)
+<img width="414" alt="tech-share-photo-6" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/608e80f5-eac2-45fd-a64b-6761b58243ac">
+
+ As we can see within the response the optional filters we added are present for each nearby p[lace returned.
+<img width="173" alt="tech-share-photo-5" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/44fc6f9b-602a-4be9-86d9-35712bc85674">
+<img width="414" alt="tech-share-photo-6" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/d7bccbf2-fbc5-432f-a85f-272cd033c9fb">
+<img width="580" alt="tech-share-photo-7" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/46b609ec-77bc-401a-b6ce-ea4c7e3d1ee1">
+
 
 Although we did mention some of the more popular parameter options there are still a lot more that you could find useful:  
 ```https://developers.google.com/maps/documentation/places/web-service/search-nearby#optional-parameters```
