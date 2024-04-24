@@ -249,12 +249,11 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
 <img width="300" alt="tech-share-photo-5" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/2b0124b7-5702-4134-a60f-3b0552c2259a">
 
 
-Although we did mention some of the more popular parameter options there are still a lot more that you could find useful:  
-```https://developers.google.com/maps/documentation/places/web-service/search-nearby#optional-parameters```
 
 ## Conclusion 
+The Google Maps API is a very useful tool for developers to take advantage of with an incredibly deep wealth of features. Although we did mention some of the more popular parameter options there are still a lot more that you could find useful:  
 
-
+Nearby Search:```https://developers.google.com/maps/documentation/places/web-service/search-nearby#optional-parameters```
 
 
 
