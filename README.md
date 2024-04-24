@@ -237,10 +237,9 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
   &opennow
 ```
 
-(Postman URL request)
-<img width="580" alt="tech-share-photo-7" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/92118b01-2d58-4a7a-ac8b-c84ac01d4c8c">
-(Postman Parameters)
-<img width="414" alt="tech-share-photo-6" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/608e80f5-eac2-45fd-a64b-6761b58243ac">
+(Postman request)
+<img width="703" alt="tech-share-photo-8" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/a52b43ec-07ef-40d8-b572-38d1704849b0">
+
 
  As we can see within the response the optional filters we added are present for each nearby p[lace returned.
 <img width="173" alt="tech-share-photo-5" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/44fc6f9b-602a-4be9-86d9-35712bc85674">
