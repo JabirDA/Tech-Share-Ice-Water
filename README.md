@@ -251,7 +251,9 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
 
 
 ## Conclusion 
-The Google Maps API is a very useful tool for developers to take advantage of with an incredibly deep wealth of features. Although we did mention some of the more popular parameter options there are still a lot more that you could find useful:
+The Google Maps API is a very useful tool for developers to take advantage of with an incredibly deep wealth of features as well as excellent support/documentation. Although we did mention some of the more popular things that can be done there are still a lot more that you could find useful.
+
+Here is a link to the documentation:
 
 OverAll documentation: ```https://developers.google.com/maps/documentation/javascript/overview```
 
