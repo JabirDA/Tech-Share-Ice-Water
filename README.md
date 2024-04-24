@@ -239,7 +239,7 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
 
 (Postman request)
 
-<img width="1000" alt="tech-share-photo-8" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/a52b43ec-07ef-40d8-b572-38d1704849b0">
+<img width="1100" alt="tech-share-photo-9" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/8178c544-b7bf-48d0-a872-bd1ec2e5c0fc">
 
 
  As we can see within the response the optional filters we added are present for each nearby places returned.
