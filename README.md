@@ -221,7 +221,7 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
   &key=YOUR_API_KEY
 ```
 Here is the query on Postman:
-<img width="898" alt="tech-share-photo-1" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/98e5f9a0-63fd-429d-a4ad-bed793352bef">
+<img width="900" alt="tech-share-photo-10-" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/3b04de3c-ea3f-4603-b0e5-c870bcb79dc0">
 
 
 Although the query worked it's not very helpful so let's add some common additional parameters to make the results more custom. The first parameter we could add is ```keyword``` which is a string that is compared to the name of the location returning any partial matches. The second parameter that could be helpful is ```opennow``` which only returns locations that are currently open. One last useful parameter is ```type``` which filters locations by tags for example bars or hospitals. An important thing to note about tags is that a location may have multiple tags however your tage parameter can only have one value not multiple. 
