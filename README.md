@@ -246,7 +246,7 @@ https://maps.googleapis.com/maps/api/place/nearbysearch/json
 
 <img width="700" alt="tech-share-photo-4" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/6179056b-61dc-4657-b3b0-29985b5c3b35">
 <br>
-<img width="300" alt="tech-share-photo-5" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/2b0124b7-5702-4134-a60f-3b0552c2259a">
+<img width="500" alt="tech-share-photo-5" src="https://github.com/JabirDA/Tech-Share-Ice-Water/assets/101074642/2b0124b7-5702-4134-a60f-3b0552c2259a">
 
 
 
